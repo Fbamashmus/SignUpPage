@@ -1,0 +1,18 @@
+.bg-cover{
+ /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right,  #63e5ff, #8aecff, #b1f2ff, #d8f9ff);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ #3cdfff, #63e5ff, #8aecff, #b1f2ff, #d8f9ff*/
+  background: linear-gradient(to right,#4ddbf7, #63e5ff, #8aecff, #b1f2ff, #d8f9ff);
+  
+  background-repeat:no-repeat;
+  background-size:cover;
+  width: 100%; 
+}
+
+.bg-img{
+   background-image:url("https://images.unsplash.com/photo-1620648378507-4ad3fac3bb51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=451&q=80");
+  background-repeat:no-repeat;
+  background-size:cover;
+  width: 100%;
+}
